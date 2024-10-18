@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">  
+  <style>
+    /* Apply the Poppins font to the body */
+    body {
+      font-family: 'Poppins', sans-serif; /* Set the default font for the page */
+    }
+    .auto{
+      font-family: "Agdasima", sans-serif;
+    }
+
+    /* Image styling to keep it fixed */
+    .no-rotate {
+      position: absolute; 
+      top: -38px; 
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 50; 
+    }
+
+    /* Service box styling */
+    .service-box {
+      position: relative; 
+      transition: transform 1s; 
+      z-index: 1; 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: start; 
+    }
+
+    /* Rotate on hover */
+    .service-box:hover {
+      transform: rotate(360deg); /* Rotate the box */
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="relative w-[90%] mx-auto mt-[160px] flex items-center">
+
+    
+    <div class="absolute top-0 left-0 w-full h-1/2 bg-blue-950"></div>
+
+    
+    <div class="absolute bottom-0 left-0 w-full h-1/2 bg-gray-100"></div>
+    
+    
+    <div id="assignment" class="relative container mx-[50px] p-6 pt-8">
+      <h1 class="text-5xl font-bold text-start text-white mb-20 auto">OUR SERVICES</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 justify-items-center">
+
+        <!-- Emergency Plumbing Services -->
+        <div class="service-box h-[300px] flex flex-col justify-start items-center p-4 bg-white shadow-lg rounded-sm text-center">
+          <div class="no-rotate">
+            <img class="w-16 h-16 border-4 bg-white px-3 py-2 border-blue-950 rounded-full" src="https://img.icons8.com/?size=100&id=USsCe2mg8ojc&format=png&color=000000" alt="">
+          </div>
+          <h2 class="text-xl font-semibold text-gray-600 mt-10">Emergency Plumbing Services</h2>
+          <p class="text-gray-600 mt-2">Our plumbers are ready to go 24/7 for emergencies-including nights, weekends, and holidays.</p>
+          <div class="flex gap-1 items-center mt-4 mb-8">
+            <p class="text-lg text-blue-950 font-semibold">EXPLORE THIS SERVICES</p>
+            <img class="w-4 h-3" src="https://img.icons8.com/?size=100&id=15195&format=png&color=000000" alt="">
+          </div>
+        </div>
+        
+        <!-- Plumbing and Drains -->
+        <div class="service-box h-[300px] flex flex-col justify-start items-center p-4 bg-white shadow-lg rounded-sm text-center">
+          <div class="no-rotate">
+            <img class="w-16 h-16 border-4 bg-white px-3 py-2 border-blue-950 rounded-full" src="https://img.icons8.com/?size=100&id=M5pu2u2QdFXd&format=png&color=000000" alt="">
+          </div>
+          <h2 class="text-xl font-semibold text-gray-600 mt-10">Plumbing and Drains</h2>
+          <p class="text-gray-600 mt-2">As the largest plumbing and drain service company, we make thousands of repairs every day.</p>
+          <div class="flex gap-1 items-center mt-4 mb-8">
+            <p class="text-lg text-blue-950 font-semibold">EXPLORE THIS SERVICES</p>
+            <img class="w-4 h-3" src="https://img.icons8.com/?size=100&id=15195&format=png&color=000000" alt="">
+          </div>
+        </div>
+
+        <!-- Water Damage -->
+        <div class="service-box h-[300px] flex flex-col justify-start items-center p-4 bg-white shadow-lg rounded-sm text-center">
+          <div class="no-rotate">
+            <img class="w-16 h-16 border-4 bg-white px-3 py-2 border-blue-950 rounded-full" src="https://img.icons8.com/?size=100&id=13101&format=png&color=000000" alt="">
+          </div>
+          <h2 class="text-xl font-semibold text-gray-600 mt-10">Water Damage</h2>
+          <p class="text-gray-600 mt-2">Our teams are equipped with state-of-the-art water extraction and cleanup equipment.</p>
+          <div class="flex gap-1 items-center mt-4 mb-8">
+            <p class="text-lg text-blue-950 font-semibold">EXPLORE THIS SERVICES</p>
+            <img class="w-4 h-3" src="https://img.icons8.com/?size=100&id=15195&format=png&color=000000" alt="">
+          </div>
+        </div>
+
+        <!-- Water Heaters -->
+        <div class="service-box h-[300px] flex flex-col justify-start items-center p-4 bg-white shadow-lg rounded-sm text-center">
+          <div class="no-rotate">
+            <img class="w-16 h-16 border-4 bg-white px-3 py-2 border-blue-950 rounded-full" src="https://img.icons8.com/?size=100&id=63145&format=png&color=7950F2" alt="">
+          </div>
+          <h2 class="text-xl font-semibold text-gray-600 mt-10">Water Heaters</h2>
+          <p class="text-gray-600 mt-2">Trust Rato-Rooter for repair and replacement of gas, electric, and tankless water heaters.</p>
+          <div class="flex gap-1 items-center mt-4 mb-8">
+            <p class="text-lg text-blue-950 font-semibold">EXPLORE THIS SERVICES</p>
+            <img class="w-4 h-3" src="https://img.icons8.com/?size=100&id=15195&format=png&color=000000" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript for rotation -->
+  <script>
+    // Adding rotation effect to service boxes
+    const serviceBoxes = document.querySelectorAll('.service-box');
+    serviceBoxes.forEach((box) => {
+      box.addEventListener('mouseenter', () => {
+        box.style.transition = "transform 1s"; 
+        box.style.transform = "rotate(360deg)"; 
+      });
+      box.addEventListener('mouseleave', () => {
+        box.style.transition = "transform 1s"; 
+        box.style.transform = "rotate(0deg)"; 
+      });
+    });
+  </script>
+</body>
+</html>
